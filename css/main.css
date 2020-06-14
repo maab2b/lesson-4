@@ -1,0 +1,95 @@
+/* ================COMMON STYLES================= */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    font-size: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+/* ===============HEADER STYLES================ */
+
+.header-line {
+    display: inline-block;
+    width: 100%;
+    background-color: #020000;
+    text-align: justify;
+}
+
+.header-line__logo {
+    display: inline-block;
+    margin: 23px 40% 23px 150px;
+}
+
+.header-line__nav {
+    display: inline-block;
+    width: 430px;
+}
+
+.header-line-nav__links > a {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 4%;
+    text-align: right;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* ==================HEADER SECTION=============== */
+
+.header-section {
+    display: inline-block;
+    width: 100%;
+    height: 712px;
+    background: url(../img/buildings.png) no-repeat center center;
+}
+
+.header-section___description {
+    width: 515px;
+    height: 392px;
+    text-align: left;
+}
+
+.title--light {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.line--light {
+    width: 64px;
+    height: 2px;
+    border: 0;
+    background: #ffffff;
+    margin: 30px auto;
+}
+
+.semi-title--light {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color:  #ffffff;
+    opacity: 0.8;
+}
+
+.download_button {
+    margin-top: 33px;
+    padding: 15px 31px;
+    font: 15px 600;
+    color: #ffffff;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+}
+
+.header-section__form {
+    width: 368px;
+    height: 374px;
+}
