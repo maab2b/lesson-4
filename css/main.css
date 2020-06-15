@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .container {
@@ -20,17 +20,22 @@
     height: 71px;
     background-color: #020000;
     text-align: center;
+    position: fixed;
+    left: 0%;
+    z-index: 10;
 }
 
 .header-line__logo {
     display: inline-block;
-    margin: 23px 45% 23px 0;
+    margin: 23px 46% 23px 0;
 }
 
 .header-line__nav {
     display: inline-block;
     width: 430px;
-    padding-bottom: 27px;
+    height: 20px;
+    position: relative;
+    top: -10%
 }
 
 .header-line-nav__links > a {
@@ -165,5 +170,65 @@
     background-color: #ff9b51;
 }
 
+/* ===============SM-BLOCK=============== */
+
+
+.sm-block {
+    display: inline-block;
+    width: 100vw;
+    height: 106px;
+}
+
+
+/* left sm-block */
+
+.sm-block_description {
+    display: inline-block;
+    width: 365px;
+    height: 61px;
+    margin-left: 6%;
+    position: relative;
+    top: 15%;
+}
+
+.open_s_title_dark {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.open_s_text_dark {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+    text-align: left;
+}
+
+
+/* right sm-block */
+
+.sm-block_icons {
+    display: inline-block;
+    width: 730px;
+    height: 46px;
+    background: url(../img/socials.png) no-repeat center center;
+    text-align: left;
+    position: relative;
+    top: 15%;
+}
+
+.sm-block-icons_links {
+    display: inline-block;
+}
+
+.sm-block-icons_links a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-right: 48px;
+    cursor: pointer;
+}
 
 
